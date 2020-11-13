@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBD18871255E5C5A00E7EEEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD18870255E5C5A00E7EEEE /* AppDelegate.swift */; };
+		DBD18873255E5C5A00E7EEEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD18872255E5C5A00E7EEEE /* SceneDelegate.swift */; };
+		DBD18875255E5C5A00E7EEEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD18874255E5C5A00E7EEEE /* ViewController.swift */; };
+		DBD18878255E5C5A00E7EEEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD18876255E5C5A00E7EEEE /* Main.storyboard */; };
+		DBD1887A255E5C5C00E7EEEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBD18879255E5C5C00E7EEEE /* Assets.xcassets */; };
+		DBD1887D255E5C5C00E7EEEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD1887B255E5C5C00E7EEEE /* LaunchScreen.storyboard */; };
+		DBD18888255E5C5C00E7EEEE /* Fusion_APPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD18887255E5C5C00E7EEEE /* Fusion_APPTests.swift */; };
+		DBD18893255E5C5C00E7EEEE /* Fusion_APPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD18892255E5C5C00E7EEEE /* Fusion_APPUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBD18884255E5C5C00E7EEEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBD18865255E5C5A00E7EEEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBD1886C255E5C5A00E7EEEE;
+			remoteInfo = "Fusion APP";
+		};
+		DBD1888F255E5C5C00E7EEEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBD18865255E5C5A00E7EEEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBD1886C255E5C5A00E7EEEE;
+			remoteInfo = "Fusion APP";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBD1886D255E5C5A00E7EEEE /* Fusion APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fusion APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD18870255E5C5A00E7EEEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBD18872255E5C5A00E7EEEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DBD18874255E5C5A00E7EEEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBD18877255E5C5A00E7EEEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBD18879255E5C5C00E7EEEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBD1887C255E5C5C00E7EEEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBD1887E255E5C5C00E7EEEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBD18883255E5C5C00E7EEEE /* Fusion APPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fusion APPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD18887255E5C5C00E7EEEE /* Fusion_APPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fusion_APPTests.swift; sourceTree = "<group>"; };
+		DBD18889255E5C5C00E7EEEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBD1888E255E5C5C00E7EEEE /* Fusion APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fusion APPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD18892255E5C5C00E7EEEE /* Fusion_APPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fusion_APPUITests.swift; sourceTree = "<group>"; };
+		DBD18894255E5C5C00E7EEEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBD1886A255E5C5A00E7EEEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD18880255E5C5C00E7EEEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD1888B255E5C5C00E7EEEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBD18864255E5C5A00E7EEEE = {
+			isa = PBXGroup;
+			children = (
+				DBD1886F255E5C5A00E7EEEE /* Fusion APP */,
+				DBD18886255E5C5C00E7EEEE /* Fusion APPTests */,
+				DBD18891255E5C5C00E7EEEE /* Fusion APPUITests */,
+				DBD1886E255E5C5A00E7EEEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBD1886E255E5C5A00E7EEEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBD1886D255E5C5A00E7EEEE /* Fusion APP.app */,
+				DBD18883255E5C5C00E7EEEE /* Fusion APPTests.xctest */,
+				DBD1888E255E5C5C00E7EEEE /* Fusion APPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBD1886F255E5C5A00E7EEEE /* Fusion APP */ = {
+			isa = PBXGroup;
+			children = (
+				DBD18870255E5C5A00E7EEEE /* AppDelegate.swift */,
+				DBD18872255E5C5A00E7EEEE /* SceneDelegate.swift */,
+				DBD18874255E5C5A00E7EEEE /* ViewController.swift */,
+				DBD18876255E5C5A00E7EEEE /* Main.storyboard */,
+				DBD18879255E5C5C00E7EEEE /* Assets.xcassets */,
+				DBD1887B255E5C5C00E7EEEE /* LaunchScreen.storyboard */,
+				DBD1887E255E5C5C00E7EEEE /* Info.plist */,
+			);
+			path = "Fusion APP";
+			sourceTree = "<group>";
+		};
+		DBD18886255E5C5C00E7EEEE /* Fusion APPTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBD18887255E5C5C00E7EEEE /* Fusion_APPTests.swift */,
+				DBD18889255E5C5C00E7EEEE /* Info.plist */,
+			);
+			path = "Fusion APPTests";
+			sourceTree = "<group>";
+		};
+		DBD18891255E5C5C00E7EEEE /* Fusion APPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBD18892255E5C5C00E7EEEE /* Fusion_APPUITests.swift */,
+				DBD18894255E5C5C00E7EEEE /* Info.plist */,
+			);
+			path = "Fusion APPUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBD1886C255E5C5A00E7EEEE /* Fusion APP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBD18897255E5C5C00E7EEEE /* Build configuration list for PBXNativeTarget "Fusion APP" */;
+			buildPhases = (
+				DBD18869255E5C5A00E7EEEE /* Sources */,
+				DBD1886A255E5C5A00E7EEEE /* Frameworks */,
+				DBD1886B255E5C5A00E7EEEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fusion APP";
+			productName = "Fusion APP";
+			productReference = DBD1886D255E5C5A00E7EEEE /* Fusion APP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBD18882255E5C5C00E7EEEE /* Fusion APPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBD1889A255E5C5C00E7EEEE /* Build configuration list for PBXNativeTarget "Fusion APPTests" */;
+			buildPhases = (
+				DBD1887F255E5C5C00E7EEEE /* Sources */,
+				DBD18880255E5C5C00E7EEEE /* Frameworks */,
+				DBD18881255E5C5C00E7EEEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBD18885255E5C5C00E7EEEE /* PBXTargetDependency */,
+			);
+			name = "Fusion APPTests";
+			productName = "Fusion APPTests";
+			productReference = DBD18883255E5C5C00E7EEEE /* Fusion APPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBD1888D255E5C5C00E7EEEE /* Fusion APPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBD1889D255E5C5C00E7EEEE /* Build configuration list for PBXNativeTarget "Fusion APPUITests" */;
+			buildPhases = (
+				DBD1888A255E5C5C00E7EEEE /* Sources */,
+				DBD1888B255E5C5C00E7EEEE /* Frameworks */,
+				DBD1888C255E5C5C00E7EEEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBD18890255E5C5C00E7EEEE /* PBXTargetDependency */,
+			);
+			name = "Fusion APPUITests";
+			productName = "Fusion APPUITests";
+			productReference = DBD1888E255E5C5C00E7EEEE /* Fusion APPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBD18865255E5C5A00E7EEEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					DBD1886C255E5C5A00E7EEEE = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					DBD18882255E5C5C00E7EEEE = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = DBD1886C255E5C5A00E7EEEE;
+					};
+					DBD1888D255E5C5C00E7EEEE = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = DBD1886C255E5C5A00E7EEEE;
+					};
+				};
+			};
+			buildConfigurationList = DBD18868255E5C5A00E7EEEE /* Build configuration list for PBXProject "Fusion APP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBD18864255E5C5A00E7EEEE;
+			productRefGroup = DBD1886E255E5C5A00E7EEEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBD1886C255E5C5A00E7EEEE /* Fusion APP */,
+				DBD18882255E5C5C00E7EEEE /* Fusion APPTests */,
+				DBD1888D255E5C5C00E7EEEE /* Fusion APPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBD1886B255E5C5A00E7EEEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD1887D255E5C5C00E7EEEE /* LaunchScreen.storyboard in Resources */,
+				DBD1887A255E5C5C00E7EEEE /* Assets.xcassets in Resources */,
+				DBD18878255E5C5A00E7EEEE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD18881255E5C5C00E7EEEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD1888C255E5C5C00E7EEEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBD18869255E5C5A00E7EEEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD18875255E5C5A00E7EEEE /* ViewController.swift in Sources */,
+				DBD18871255E5C5A00E7EEEE /* AppDelegate.swift in Sources */,
+				DBD18873255E5C5A00E7EEEE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD1887F255E5C5C00E7EEEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD18888255E5C5C00E7EEEE /* Fusion_APPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD1888A255E5C5C00E7EEEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD18893255E5C5C00E7EEEE /* Fusion_APPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBD18885255E5C5C00E7EEEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBD1886C255E5C5A00E7EEEE /* Fusion APP */;
+			targetProxy = DBD18884255E5C5C00E7EEEE /* PBXContainerItemProxy */;
+		};
+		DBD18890255E5C5C00E7EEEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBD1886C255E5C5A00E7EEEE /* Fusion APP */;
+			targetProxy = DBD1888F255E5C5C00E7EEEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBD18876255E5C5A00E7EEEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBD18877255E5C5A00E7EEEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBD1887B255E5C5C00E7EEEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBD1887C255E5C5C00E7EEEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBD18895255E5C5C00E7EEEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBD18896255E5C5C00E7EEEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBD18898255E5C5C00E7EEEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4M9JN3FY6A;
+				INFOPLIST_FILE = "Fusion APP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cooper.Fusion-APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBD18899255E5C5C00E7EEEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4M9JN3FY6A;
+				INFOPLIST_FILE = "Fusion APP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cooper.Fusion-APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DBD1889B255E5C5C00E7EEEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4M9JN3FY6A;
+				INFOPLIST_FILE = "Fusion APPTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cooper.Fusion-APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fusion APP.app/Fusion APP";
+			};
+			name = Debug;
+		};
+		DBD1889C255E5C5C00E7EEEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4M9JN3FY6A;
+				INFOPLIST_FILE = "Fusion APPTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cooper.Fusion-APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fusion APP.app/Fusion APP";
+			};
+			name = Release;
+		};
+		DBD1889E255E5C5C00E7EEEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4M9JN3FY6A;
+				INFOPLIST_FILE = "Fusion APPUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cooper.Fusion-APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fusion APP";
+			};
+			name = Debug;
+		};
+		DBD1889F255E5C5C00E7EEEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4M9JN3FY6A;
+				INFOPLIST_FILE = "Fusion APPUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cooper.Fusion-APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fusion APP";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBD18868255E5C5A00E7EEEE /* Build configuration list for PBXProject "Fusion APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD18895255E5C5C00E7EEEE /* Debug */,
+				DBD18896255E5C5C00E7EEEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBD18897255E5C5C00E7EEEE /* Build configuration list for PBXNativeTarget "Fusion APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD18898255E5C5C00E7EEEE /* Debug */,
+				DBD18899255E5C5C00E7EEEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBD1889A255E5C5C00E7EEEE /* Build configuration list for PBXNativeTarget "Fusion APPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD1889B255E5C5C00E7EEEE /* Debug */,
+				DBD1889C255E5C5C00E7EEEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBD1889D255E5C5C00E7EEEE /* Build configuration list for PBXNativeTarget "Fusion APPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD1889E255E5C5C00E7EEEE /* Debug */,
+				DBD1889F255E5C5C00E7EEEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBD18865255E5C5A00E7EEEE /* Project object */;
+}
