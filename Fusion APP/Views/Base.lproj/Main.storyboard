@@ -28,7 +28,7 @@
             </objects>
             <point key="canvasLocation" x="-2495" y="-435"/>
         </scene>
-        <!--avicci-->
+        <!--avicii-->
         <scene sceneID="wSt-aX-8rc">
             <objects>
                 <viewController id="dkc-o3-LAw" customClass="InstagramHomeViewController" customModule="Fusion_APP" customModuleProvider="target" sceneMemberID="viewController">
@@ -215,7 +215,7 @@
                             <constraint firstItem="HVC-Jd-xCj" firstAttribute="leading" secondItem="AiW-k3-ayP" secondAttribute="leading" id="xwK-Rp-nfN"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="avicci" id="Jk4-n8-RrW"/>
+                    <navigationItem key="navigationItem" title="avicii" id="Jk4-n8-RrW"/>
                     <connections>
                         <outlet property="collectionView" destination="HVC-Jd-xCj" id="dZJ-aR-JYa"/>
                         <segue destination="MXv-RK-hNH" kind="show" identifier="PostSegue" id="Ftc-44-CQd"/>
@@ -364,10 +364,10 @@
                                 </view>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="InstagramSecondPageTableViewCell" id="X4I-yr-Nd0" customClass="InstagramSecondPageTableViewCell" customModule="Fusion_APP" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="208" width="414" height="717"/>
+                                        <rect key="frame" x="0.0" y="208" width="414" height="718"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="X4I-yr-Nd0" id="FWX-wQ-9V4">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="717"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="718"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="K7a-xI-aR0">
@@ -405,7 +405,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="MHx-fe-89x">
-                                                    <rect key="frame" x="20" y="474" width="374" height="223"/>
+                                                    <rect key="frame" x="20" y="474" width="374" height="224"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="435123 likes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Th4-Ku-omg">
                                                             <rect key="frame" x="0.0" y="0.0" width="84.5" height="17"/>
@@ -414,7 +414,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" id="PI8-6r-cZS">
-                                                            <rect key="frame" x="0.0" y="17" width="370.5" height="191"/>
+                                                            <rect key="frame" x="0.0" y="17" width="370.5" height="192"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <string key="text">Le velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
@@ -423,7 +423,7 @@
                                                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                         </textView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oeP-m3-t5z">
-                                                            <rect key="frame" x="0.0" y="208" width="25" height="15"/>
+                                                            <rect key="frame" x="0.0" y="209" width="25" height="15"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
@@ -652,7 +652,7 @@
                                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Avicci" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fzn-p4-zlt">
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Avicii" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fzn-p4-zlt">
                                                                     <rect key="frame" x="0.0" y="20.5" width="172.5" height="28"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                     <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
