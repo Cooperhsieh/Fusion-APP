@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB167712256218CE00572136 /* InstagramSecondPageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB167711256218CE00572136 /* InstagramSecondPageTableViewCell.swift */; };
+		DB16771725621A0700572136 /* InstagramSecondPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB16771625621A0700572136 /* InstagramSecondPageViewController.swift */; };
+		DBAA61D92561411200ED3B74 /* InstagramHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAA61D82561411200ED3B74 /* InstagramHomeViewController.swift */; };
+		DBAA61DE2561419500ED3B74 /* InstagramHomePicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAA61DD2561419500ED3B74 /* InstagramHomePicCollectionViewCell.swift */; };
+		DBAA61E32561423500ED3B74 /* InstagramHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAA61E22561423500ED3B74 /* InstagramHeaderCollectionReusableView.swift */; };
+		DBAA61EB2561445100ED3B74 /* InstagramData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAA61EA2561445100ED3B74 /* InstagramData.swift */; };
 		DBD18871255E5C5A00E7EEEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD18870255E5C5A00E7EEEE /* AppDelegate.swift */; };
 		DBD18873255E5C5A00E7EEEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD18872255E5C5A00E7EEEE /* SceneDelegate.swift */; };
-		DBD18875255E5C5A00E7EEEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD18874255E5C5A00E7EEEE /* ViewController.swift */; };
+		DBD18875255E5C5A00E7EEEE /* MusicHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD18874255E5C5A00E7EEEE /* MusicHomeViewController.swift */; };
 		DBD18878255E5C5A00E7EEEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD18876255E5C5A00E7EEEE /* Main.storyboard */; };
 		DBD1887A255E5C5C00E7EEEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBD18879255E5C5C00E7EEEE /* Assets.xcassets */; };
 		DBD1887D255E5C5C00E7EEEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD1887B255E5C5C00E7EEEE /* LaunchScreen.storyboard */; };
 		DBD18888255E5C5C00E7EEEE /* Fusion_APPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD18887255E5C5C00E7EEEE /* Fusion_APPTests.swift */; };
 		DBD18893255E5C5C00E7EEEE /* Fusion_APPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD18892255E5C5C00E7EEEE /* Fusion_APPUITests.swift */; };
+		DBD188BB255E8C6500E7EEEE /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD188BA255E8C6500E7EEEE /* SongTableViewCell.swift */; };
+		DBD188CE255F98FD00E7EEEE /* MusicData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD188CD255F98FD00E7EEEE /* MusicData.swift */; };
+		DBD188DA2561049600E7EEEE /* MusicPlayDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD188D92561049600E7EEEE /* MusicPlayDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +44,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB167711256218CE00572136 /* InstagramSecondPageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramSecondPageTableViewCell.swift; sourceTree = "<group>"; };
+		DB16771625621A0700572136 /* InstagramSecondPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramSecondPageViewController.swift; sourceTree = "<group>"; };
+		DBAA61D82561411200ED3B74 /* InstagramHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramHomeViewController.swift; sourceTree = "<group>"; };
+		DBAA61DD2561419500ED3B74 /* InstagramHomePicCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramHomePicCollectionViewCell.swift; sourceTree = "<group>"; };
+		DBAA61E22561423500ED3B74 /* InstagramHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		DBAA61EA2561445100ED3B74 /* InstagramData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramData.swift; sourceTree = "<group>"; };
 		DBD1886D255E5C5A00E7EEEE /* Fusion APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fusion APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBD18870255E5C5A00E7EEEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBD18872255E5C5A00E7EEEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DBD18874255E5C5A00E7EEEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBD18874255E5C5A00E7EEEE /* MusicHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicHomeViewController.swift; sourceTree = "<group>"; };
 		DBD18877255E5C5A00E7EEEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DBD18879255E5C5C00E7EEEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBD1887C255E5C5C00E7EEEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +64,9 @@
 		DBD1888E255E5C5C00E7EEEE /* Fusion APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fusion APPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBD18892255E5C5C00E7EEEE /* Fusion_APPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fusion_APPUITests.swift; sourceTree = "<group>"; };
 		DBD18894255E5C5C00E7EEEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBD188BA255E8C6500E7EEEE /* SongTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
+		DBD188CD255F98FD00E7EEEE /* MusicData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicData.swift; sourceTree = "<group>"; };
+		DBD188D92561049600E7EEEE /* MusicPlayDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +119,10 @@
 			children = (
 				DBD18870255E5C5A00E7EEEE /* AppDelegate.swift */,
 				DBD18872255E5C5A00E7EEEE /* SceneDelegate.swift */,
-				DBD18874255E5C5A00E7EEEE /* ViewController.swift */,
-				DBD18876255E5C5A00E7EEEE /* Main.storyboard */,
+				DBD188A3255E5C6C00E7EEEE /* Model */,
+				DBD188A4255E5C7300E7EEEE /* Views */,
+				DBD188A5255E5C7D00E7EEEE /* Controllers */,
 				DBD18879255E5C5C00E7EEEE /* Assets.xcassets */,
-				DBD1887B255E5C5C00E7EEEE /* LaunchScreen.storyboard */,
 				DBD1887E255E5C5C00E7EEEE /* Info.plist */,
 			);
 			path = "Fusion APP";
@@ -126,6 +144,39 @@
 				DBD18894255E5C5C00E7EEEE /* Info.plist */,
 			);
 			path = "Fusion APPUITests";
+			sourceTree = "<group>";
+		};
+		DBD188A3255E5C6C00E7EEEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DBD188CD255F98FD00E7EEEE /* MusicData.swift */,
+				DBAA61EA2561445100ED3B74 /* InstagramData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DBD188A4255E5C7300E7EEEE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DBD1887B255E5C5C00E7EEEE /* LaunchScreen.storyboard */,
+				DBD18876255E5C5A00E7EEEE /* Main.storyboard */,
+				DBAA61DD2561419500ED3B74 /* InstagramHomePicCollectionViewCell.swift */,
+				DBD188BA255E8C6500E7EEEE /* SongTableViewCell.swift */,
+				DB167711256218CE00572136 /* InstagramSecondPageTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DBD188A5255E5C7D00E7EEEE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DBD18874255E5C5A00E7EEEE /* MusicHomeViewController.swift */,
+				DBD188D92561049600E7EEEE /* MusicPlayDetailViewController.swift */,
+				DBAA61D82561411200ED3B74 /* InstagramHomeViewController.swift */,
+				DBAA61E22561423500ED3B74 /* InstagramHeaderCollectionReusableView.swift */,
+				DB16771625621A0700572136 /* InstagramSecondPageViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +309,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBD18875255E5C5A00E7EEEE /* ViewController.swift in Sources */,
+				DB167712256218CE00572136 /* InstagramSecondPageTableViewCell.swift in Sources */,
+				DBD188CE255F98FD00E7EEEE /* MusicData.swift in Sources */,
+				DBD18875255E5C5A00E7EEEE /* MusicHomeViewController.swift in Sources */,
+				DBAA61E32561423500ED3B74 /* InstagramHeaderCollectionReusableView.swift in Sources */,
+				DBD188BB255E8C6500E7EEEE /* SongTableViewCell.swift in Sources */,
+				DBD188DA2561049600E7EEEE /* MusicPlayDetailViewController.swift in Sources */,
 				DBD18871255E5C5A00E7EEEE /* AppDelegate.swift in Sources */,
+				DBAA61EB2561445100ED3B74 /* InstagramData.swift in Sources */,
+				DB16771725621A0700572136 /* InstagramSecondPageViewController.swift in Sources */,
+				DBAA61DE2561419500ED3B74 /* InstagramHomePicCollectionViewCell.swift in Sources */,
+				DBAA61D92561411200ED3B74 /* InstagramHomeViewController.swift in Sources */,
 				DBD18873255E5C5A00E7EEEE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
